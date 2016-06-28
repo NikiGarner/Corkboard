@@ -1,0 +1,55 @@
+body {
+  background: url('img/corkboard.jpg');
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  height: 100%;
+}
+
+
+/*img {
+  max-width: 100%;
+  height: auto;
+}*/
+/*#tiredPug {
+  max-width: 100%;
+  height: auto;
+}*/
+.container {
+  max-width: 100%;
+  height: auto;
+}
+
+/*.polaroid {
+  position: absolute;
+}*/
+
+.tiredPug {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+
+  /*position: absolute;*/
+  /*left: 14.25%;
+  top: 11.5%;*/
+}
+
+div.tiredPug:before {
+  content: url('img/polaroid.png');
+  /*height: 990px;
+  width: 790px;*/
+  position: absolute;
+  top: -115px;
+  left: -130px;
+}
+
+div.tiredPug:after {
+  content: url('img/red-pin.png');
+  /*height: 200px;
+  width: 100px;*/
+  position: absolute;
+  top: -75px;
+  left: 200px;
+}
